@@ -8,18 +8,19 @@
     <script src="site.js" type="text/javascript"></script>
   </head>
   <body>
+    <alert("Perfect!");>
     <div class="container">
-      <h1>Competition Pistol Timer</h1>
+      <h1>Duel Pistol Timer</h1>
     </div>
+    <!-- Buttons to start stop timer -->
     <div class="container">
       <div class="row">
         <div class="col-sm">
-          <div class="btn btn-success">Start</div>
-          <div class="btn btn-warning">Stop</div>
-          <div class="btn btn-danger">Reset</div>
+          <div class="btn btn-success" onclick="toggleBg()">Start</div>
+          <div class="btn btn-warning" onclick="resetBg()">Stop</div>
         </div>
       </div>
     </div>
-
+  </script>
   </body>
 </html>
